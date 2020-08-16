@@ -1,0 +1,70 @@
+{
+  "name": "vue-login",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "bootstrap-vue": "^2.16.0",
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11",
+    "vuelidate": "^0.7.5"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "linebreak-style": "off",
+      "comma-dangle": [
+        "error",
+        {
+          "arrays": "always-multiline",
+          "objects": "always-multiline",
+          "exports": "always-multiline",
+          "imports": "always-multiline",
+          "functions": "always-multiline"
+        }
+      ]
+    }
+  },
+  "prettier": {
+    "printWidth": 120,
+    "tabWidth": 2,
+    "tabs": false,
+    "semi": false,
+    "singleQuote": true,
+    "quoteProps": "as-needed",
+    "trailingComma": "all",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": true,
+    "arrowParens": "always",
+    "parser": "vue"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
