@@ -1,0 +1,10 @@
+{
+  "name": "vue-login",
+  "version": "1.0.0",
+  "description": "vue login on Heroku",
+  "author": "samoylovsv",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm install express"
+  }
+}
